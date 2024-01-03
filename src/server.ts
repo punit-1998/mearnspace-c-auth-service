@@ -1,7 +1,5 @@
-function login(username:string)
-{
-    return true;
+function login(username: string) {
+  return true;
 }
 
-login('')
-
+login("data");

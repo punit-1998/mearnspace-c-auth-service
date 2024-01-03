@@ -4,11 +4,14 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check": "npx prettier . --check",
+    "format:fix": "npx prettier . --write"
   },
   "author": "Punit kataria <punit99587@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "3.1.1",
     "typescript": "^5.3.2"
   }
 }
