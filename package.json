@@ -4,8 +4,11 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "dev" : "node src/server.js"
+    "dev": "node src/server.js"
   },
   "author": "Punit kataria <punit99587@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
 }
