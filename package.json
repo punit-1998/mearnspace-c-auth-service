@@ -6,11 +6,17 @@
   "scripts": {
     "dev": "node src/server.js",
     "format:check": "npx prettier . --check",
-    "format:fix": "npx prettier . --write"
+    "format:fix": "npx prettier . --write",
+    "lint" : "eslint .",
+    "lint:fix" : "eslint . --fix"
   },
   "author": "Punit kataria <punit99587@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
     "prettier": "3.1.1",
     "typescript": "^5.3.2"
   }
