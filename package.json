@@ -14,6 +14,7 @@
   "author": "Punit kataria <punit99587@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.10.6",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
     "eslint": "^8.56.0",
@@ -28,5 +29,8 @@
       "npm run lint:fix",
       "npm run format:fix"
     ]
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
